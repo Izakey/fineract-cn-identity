@@ -45,9 +45,9 @@ cassandra:
 
 connpool:
   host: localhost
-  port: 3306
-  user: root
-  password: mysql
+  port: 5432
+  user: postgres
+  password: postgres
   metainstance: system_console
   idleMaxAgeInMinutes: 240
   idleConnectionTestPeriodInMinutes: 60
